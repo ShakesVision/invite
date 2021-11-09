@@ -1,0 +1,75 @@
+html {
+  background: #ffdbdb;
+}
+body {
+  background: #ffecf2;
+  height: 100vh;
+}
+* {
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  font-family: "Mehr", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl;
+  text-align: center;
+}
+.main {
+}
+.en {
+  direction: ltr;
+}
+title {
+  font-size: xx-large;
+}
+.sher,
+.sher {
+  text-align: justify;
+  text-align-last: justify;
+  -o-text-align-last: justify;
+  -ms-text-align-last: justify;
+  -moz-text-align-last: justify;
+  -webkit-text-align-last: justify;
+  margin: 0 auto;
+}
+.nikaah {
+  background:#e6e699;
+  border: 1px solid;
+  padding: 1rem;
+  margin: 0 15px;
+  border-radius: 30px;
+}
+.name {
+  font-size: x-large;
+}
+.groom {
+  font-weight: 600;
+  color: #b17373;
+}
+.parent {
+    color: #b17373;
+}
+.date {
+  color: #df4949;
+  span.num {
+    font-size: 36px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+  }
+  span.m {
+    color: rgb(223, 73, 73);
+  }
+}
+.addToCalender {
+    a {
+        text-decoration: none;
+        columns: slategray;
+    }
+    button {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        border: none;
+        background: #e9b6b6;
+        padding: 8px 16px;
+        cursor: pointer;
+      }
+}
