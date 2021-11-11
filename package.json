@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:ci": "ng build --prod --sourceMap=false --base-href /invite/"
+    "build:ci": "ng build --prod --sourceMap=false --base-href=/invite/ --cname=invite"
   },
   "private": true,
   "dependencies": {
